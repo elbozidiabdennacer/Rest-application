@@ -63,7 +63,7 @@ text-decoration:none;
 		    </ul>
 		  </li>
 		  
-		<li class="list2"><a href="getPanier.jsp">Panier</a></li>
+		<li class="list2"><a href="getPanier">Panier</a></li>
 		  
 		  <li class="list2"> Contact moi
 		     <ul>

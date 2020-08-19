@@ -142,7 +142,7 @@ text-decoration:none;
          <%
          for(Biblio bb:listcat){
          %>
-        <li> <a href="Categorie.jsp?idbiblio=<%=bb.getIdb()%>"><%=bb.getNomB() %></a></li>
+        <li> <a href="getBookCat?idbiblio=<%=bb.getIdb()%>"><%=bb.getNomB() %></a></li>
         <%}%>
 		
      </ul>

@@ -58,7 +58,7 @@ text-decoration:none;
 		    </ul>
 		  </li>
 		  
-		 <li class="list2"><a href="Panier.jsp">Panier</a></li>
+		 <li class="list2"><a href="getPanier">Panier</a></li>
 		  
 		  <li class="list2"> Contact moi
 		     <ul>
@@ -135,7 +135,7 @@ text-decoration:none;
          <%
          for(Biblio bb:listcat){
          %>
-        <li> <a href="Categorie.jsp?idbiblio=<%=bb.getIdb()%>"><%=bb.getNomB() %></a></li>
+        <li> <a href="getBookCat?idbiblio=<%=bb.getIdb()%>"><%=bb.getNomB() %></a></li>
         <%}%>
 		
      </ul>
