@@ -106,11 +106,11 @@ public class traitCommande extends HttpServlet {
 				} catch (Exception e) {
 
 				}
-				request.getRequestDispatcher("Accueil.jsp").forward(request, response);
+				request.getRequestDispatcher("Saved.jsp").forward(request, response);
 			}
 		   }
 		}
-		request.getRequestDispatcher("Saved.jsp").forward(request, response);
+		
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)

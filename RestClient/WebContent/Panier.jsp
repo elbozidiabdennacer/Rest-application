@@ -103,7 +103,7 @@ text-decoration:none;
     
     <%if(panie !=null){ %>
     <div class="divbtn">
-			<form method='post' action="traitCommande?op=post" >
+			<form method='post' action="traitCommandes?op=post" >
 			
 			 <input type="submit" name="btne" value="Buy" class="btn" />
 			  
