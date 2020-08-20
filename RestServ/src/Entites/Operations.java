@@ -153,6 +153,9 @@ public class Operations {
 				prepare.setString(4, new Date().toString());
 				prepare.execute();
 			}
+			String sql = "DELETE FROM panie where IdC="+pan.get(0).getIdc();
+			Statement st = cnx.createStatement();
+			st.execute(sql);
 
 		} catch (SQLException e) {
 			System.out.println(e.getMessage());
